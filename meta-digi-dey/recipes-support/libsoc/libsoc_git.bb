@@ -9,7 +9,7 @@ HOMEPAGE = "https://github.com/jackmitch/libsoc"
 LICENSE = "LGPLv2.1"
 LIC_FILES_CHKSUM = "file://LICENCE;md5=e0bfebea12a718922225ba987b2126a5"
 
-inherit autotools pkgconfig python-dir
+inherit autotools pkgconfig pythonnative
 
 SRCBRANCH ?= "master"
 SRCREV = "${AUTOREV}"
